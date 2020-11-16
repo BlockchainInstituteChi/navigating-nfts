@@ -1,0 +1,507 @@
+---
+title: CCC Instructors Guide
+layout: interactive-tool
+ogTitle: Crypto Curious Teacher's Guide
+ogImage: assets/img/CCC_Title.jpeg
+ogDesc: Become a blockchain ambassador today!
+---
+
+<div id="toc-container" class="modal tableOfContents hidden">
+    <span onclick="tocToggle()" class="toggleButton">✕</span>
+    <h2>Table of Contents</h2>
+    <ol id="toc">
+        {% for slideIndex in site.slidesList %}
+            {% assign slide = site.slides 
+                    | where_exp:"slide", "slide.slideId==slideIndex" 
+                    | first %}
+            {% if slide.isSectionHead == true or slide.type == 'title-break' %}
+                <li id="toc_{{ slide.slideId }}" class="section"><a onclick="showSlide('{{ slide.slideId }}')">{{ slide.title }}</a></li>
+            {% elsif slide.isQuestionSlide == true  or slide.type == 'prompt-question' %}
+                <li id="toc_{{ slide.slideId }}" class="question-slide"><a onclick="showSlide('{{ slide.slideId }}')">{{ slide.title }}</a></li>
+            {% elsif slide.type == 'example' %}
+                <li class="example" id="toc_{{ slide.slideId }}"><a onclick="showSlide('{{ slide.slideId }}')">Example: {{ slide.title }}</a></li>
+            {% else %}
+                <li id="toc_{{ slide.slideId }}"><a onclick="showSlide('{{ slide.slideId }}')">{{ slide.title }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ol>
+</div>
+<div id="notes-container" class="modal notes hidden">
+    <span onclick="notesToggle()" class="toggleButton">✕</span>
+    <div id="notes-body" class="notesBody">
+
+    </div>
+</div>
+
+<div class="controlBar">
+    <ul>
+        <li onclick="lastSlide()">
+            <i class="fas fa-chevron-left"></i>
+            <span>Back</span>
+        </li>
+        <li onclick="tocToggle()">
+            <i class="fas fa-bars"></i>
+            <span>All Slides</span>
+        </li>
+        <li onclick="toggleAllOptions()">
+            <i class="fas fa-ellipsis-h"></i>
+            <span>More</span>
+            <div id="allOptions" class="allOptions hidden">
+                <ul>
+                    <li onclick="infoToggle()">
+                        <i class="fas fa-info-circle"></i>
+                        <span>Info</span>
+                    </li>
+                    <li onclick="shareUrl()">
+                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                        <span>Share</span>
+                    </li>
+                    <li onclick="openPrintableSlides()">
+                        <i class="fas fa-print"></i>
+                        <span>Printable Slides</span>
+                    </li>
+                    <li onclick="presentationToggle()">
+                        <i class="fas fa-external-link-alt"></i>
+                        <span>Present</span>
+                    </li>
+                    <li onclick="openFullscreen()">
+                        <i class="fas fa-expand"></i>
+                        <span>Full Screen</span>
+                    </li>
+                    <li onclick="openDocView()">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Document</span>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li onclick="notesToggle()">
+            <i class="far fa-clipboard"></i>
+            <span>Notes</span>
+        </li>
+        <li onclick="nextSlide()">
+            <i class="fas fa-chevron-right"></i>
+            <span>Next</span>
+        </li>
+    </ul>
+</div>
+
+<div id="info" class="info hidden">
+    <span onclick="infoToggle()" class="toggleButton">✕</span>
+    <h1>Crypto Curious Course</h1>
+    <p class="author">Blockchain Institute <br> June 2020</p>
+    <div class="abstract">
+        <h4>A comprehensive guide to teaching Crypto Curious Course</h4>
+        <p>This guide will give you a rundown on the basics of cryptocurrency and blockchain with the aim of getting you comfortable with cryptocurrencies and blockchain technology. Before going over the specifics you will take a look at the context in which Bitcoin was launched into the world.</p>
+    </div>
+    <div id="housekeeping">
+        <h5>Housekeeping</h5>
+        <div>
+            <p>This course is 2-3 hours long. Breaks may be helpful for discussion, but the content has been disnged to hold questions until the end.<p>
+            </p>
+            <ul>
+                <li>You are free to:</li>
+                <ul>
+                    <li>Copy and redistributed the material in any medium or format</li>
+                    <li>Remix, transform, and build upon the material for any purpose</li>
+                </ul>
+            </ul>
+            <ul>
+                <li>Provided:</li>
+                <ul>
+                    <li>You give appropriate credit</li>
+                    <li>Provide a link to the licence</li>
+                    <li>Indicate if changes were made</li>
+                </ul>
+            </ul>
+
+            {% include feedbackCallToAction.html %}
+            <!-- <figure><img alt="Blockchain Institute" src="assets/img/housekeeping.jpg" alt=""></figure> -->
+        </div>
+    </div>
+    <div id="blockchain-institute">
+        <h5>About Blockchain Institute</h5>
+        <p><a href="https://weteachblockchain.org/" target="_blank">Blockchain Institute</a> is a United States 501(c)(3) non-profit charity whose mandate is to provide education to the public </p>
+        <img alt="" src="assets/img/heart.black.png" alt="" width="35">
+        <ul>
+            <li>The content is released under <a href="#license">CC BY 4.0</a></li>
+            <li>Follow us on social media!</li>
+            <ul>
+                <li>Twitter: <a href="https://twitter.com/bchaininstitute" target="_blank">@bchaininstitute</a></li>
+                <li>Facebook: <a href="https://www.facebook.com/TheBlockchainInstitute/" target="_blank">theblockchaininstitute</a></li>
+                <li>Instagram: <a href="https://www.instagram.com/theblockchaininstitute/" target="_blank">theblockchaininstitute</a></li>
+            </ul>
+
+        </ul>
+    </div>
+</div>
+
+{% include loginToTrackProgress.html %}
+
+{% include slideBody.html %}
+
+<script>
+    unsetLazyImg()
+
+    function unsetLazyImg ( ) {
+        var imgs = document.getElementsByTagName('img')
+        for ( img of imgs ) {
+            console.log('hiding image', img.src)
+            img.dataSrc = img.src
+            img.src = ""
+        }
+    }
+
+    async function showSlide (slideId) {
+
+        if ( parseInt(slideId, 10) ) slideId = document.getElementsByTagName('article')[parseInt(slideId, 10) - 1].id
+        
+        console.log('displaying slide', slideId)
+   
+        await hideShownSlides () 
+        loadImgForSlide(slideId)
+        document.getElementById(slideId).className += ' shown'
+        populateNotes(slideId)
+        setCurrentSlide(slideId)
+        reloadPresenterNotes()
+
+        await hideTocHighlight () 
+
+        document.getElementById("toc_" + slideId).className += ' tocHighlight'  
+
+        scrollTocToView('toc_' + slideId);
+
+    }
+
+    function loadImgForSlide( slideId ) {
+        var imgs = document.getElementById(slideId).getElementsByTagName('img')
+        for ( img of imgs ) {
+            img.src = img.dataSrc
+        }
+    }
+
+    async function hideShownSlides ( ) {
+        for (slide of document.getElementsByClassName('shown')){
+            // console.log('hiding slide', slide)
+            slide.className = slide.className.replace('shown','')
+        }
+        return 
+    }
+
+    function openDocView () {
+        if ( !window.isLoggedIn ) return 
+        window.open('/document-view.html')
+    }
+
+    function openPrintableSlides ( ) {
+        if ( !window.isLoggedIn ) return
+        window.location.hred = "/printable-slides.html"
+    }
+
+    function scrollTocToView ( id ) {
+        document.getElementById('toc-container').scrollTop = document.getElementById(id).offsetTop - ( document.getElementById('toc-container').offsetHeight / 2);
+        message_broadcast({ trigger: 'tocUpdate' })
+    }
+
+    async function hideTocHighlight ( ) {
+        for (li of document.getElementsByClassName('tocHighlight')){
+            // console.log('hiding tocHighlight', li)
+            li.className = li.className.replace('tocHighlight','')
+        }
+        return 
+    }    
+
+    // showSlide('title-slide');
+
+    window.notes = { 
+        {% for slide in site.slides %}'{{ slide.slideId }}' : `{{ slide.notes }}`,{% endfor %}
+        }
+    localStorage.setItem('notes', JSON.stringify(window.notes) )
+    console.log('notes are ', window.notes)
+
+    function populateNotes ( slideId ) {
+        // console.log('found notes', window.notes[slideId])
+        document.getElementById('notes-body').innerHTML = window.notes[slideId]
+    }
+    function toggleAllOptions () {
+        if ( !window.isLoggedIn ) return
+        toggleElement('allOptions')
+    } 
+
+    function infoToggle () {
+        if ( !window.isLoggedIn ) return
+        toggleElement('info')
+    } 
+
+    function notesToggle () {
+        if ( !window.isLoggedIn ) return
+        toggleElement('notes-container')
+    } 
+
+    function tocToggle () {
+        if ( !window.isLoggedIn ) return
+        toggleElement('toc-container')
+    }
+
+    function toggleElement ( elementId ) {
+        // console.log('toggling', elementId)
+        if ( document.getElementById( elementId ).className.includes('hidden') ) {
+            document.getElementById( elementId ).className = document.getElementById( elementId ).className.replace('hidden', '')
+        } else {
+            document.getElementById( elementId ).className += ' hidden'
+        }
+    }
+
+    function nextSlide ( ) {
+        if ( !window.isLoggedIn ) return
+        
+        var currentSlide = document.getElementsByClassName('shown')[0].id;
+        var next = 0
+
+        for ( slide of document.getElementsByTagName('article') ) {
+            if ( next > 0 ) {
+                return showSlide (slide.id)
+            }
+            if ( slide.id === currentSlide ) {
+                next = 1
+            }
+        }   
+        return false;
+
+    }
+
+    function lastSlide ( ) {
+        if ( !window.isLoggedIn ) return
+        
+        var currentSlide = document.getElementsByClassName('shown')[0].id;
+
+        if ( currentSlide != 'title-slide' ) {
+            var lastSlide = null;   
+
+            for ( slide of document.getElementsByTagName('article') ) {
+                if ( slide.id === currentSlide ) {
+                    return showSlide(lastSlide)
+                }
+                lastSlide = slide.id
+            }   
+            return false;
+        } else {
+            return false;
+        }
+
+    }    
+    
+    // Arrow key config
+    document.onkeydown = checkKey;
+
+    function checkKey(e) {
+
+        e = e || window.event;
+
+        console.log('key press', e.keyCode)
+
+        if (e.keyCode == '38') {
+            tocToggle () 
+        } else if (e.keyCode == '40') {
+            notesToggle () 
+        } else if (e.keyCode == '37') {
+            lastSlide () 
+        } else if (e.keyCode == '39') {
+            nextSlide () 
+        } else if (e.keyCode == '32') {
+            openFullscreen () 
+        } else if (e.keyCode == '80') {
+            openNotes()
+        } 
+
+    }
+
+
+    async function presentationToggle () {
+        if ( !window.isLoggedIn ) return
+
+        await openNotes ();
+
+    }
+
+    function reloadPresenterNotes ( ) {
+        message_broadcast ({
+            trigger : 'loadNotes'
+        })
+    }
+
+    function setCurrentSlide ( slideId ) {
+        setAnchorText (slideId)
+        localStorage.setItem('currentSlide', slideId);
+    }
+
+    async function openNotes () {
+        window.presentation = true;
+
+        await window.open("presenter-notes.html", "", "toolbar=no,menubar=no,width=600,height=500");
+        
+        message_broadcast ({
+            trigger : 'loadNotes'
+        })
+
+        return
+    }
+    window.onMessageEvent = function ( ev ) {
+        console.log('handling event', ev)
+        if ( event.data.trigger === "nextSlide" ) {
+            nextSlide()
+        } else if ( event.data.trigger === "lastSlide" ) {
+            lastSlide()
+        } else if ( event.data.trigger === "showSlide" ) {
+            showSlide(event.data.slideId)
+        } 
+    }
+
+    
+    // function killNotes () {
+    //     window.presentation = false;
+    //     message_broadcast ({
+    //         trigger : "terminate"
+    //     })
+    // }
+
+    // Poorly functioning full screen triggers
+    if (document.addEventListener){
+        document.addEventListener('fullscreenchange', exitHandler, false);
+        document.addEventListener('mozfullscreenchange', exitHandler, false);
+        document.addEventListener('MSFullscreenChange', exitHandler, false);
+        document.addEventListener('webkitfullscreenchange', exitHandler, false);
+    }
+
+    function exitHandler(){
+        var exit = null;
+        if ( document.webkitIsFullScreen !== null ) {
+            exit = !document.webkitIsFullScreen
+        } else if ( document.mozFullScreen !== null ) {
+            exit = !document.mozFullScreen
+        } else if ( document.msFullscreenElement !== null ) {
+            exit = !document.msFullscreenElement
+        }
+
+        console.log('exit is ', exit)
+
+        var elem = document.getElementById('slideBody')
+
+        if ( exit ) {
+            elem.className = elem.className.split("fullScreen").join('')
+        } else {
+            elem.className += " fullScreen"
+        }
+
+    }
+
+    async function openFullscreen() {
+        if ( !window.isLoggedIn ) return
+
+        var elem = document.getElementById('slideBody')
+            elem.className += " fullScreen"
+
+        if (elem.requestFullscreen) {
+            return elem.requestFullscreen();
+        } else if (elem.mozRequestFullScreen) { /* Firefox */
+            return  elem.mozRequestFullScreen();
+        } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+            return elem.webkitRequestFullscreen();
+        } else if (elem.msRequestFullscreen) { /* IE/Edge */
+            return elem.msRequestFullscreen();
+        } else {
+            return false;
+        }
+
+    }
+
+    window.onload = function ( ) {
+        checkForAnchorTags()
+    }
+    function checkForAnchorTags ( ) {
+        
+        if ( window.location.href.includes("#") ) {
+            var ref = window.location.href.split("#")[1].split('?')[0]
+
+            if ( !parseInt(ref, 10) ) {
+                if ( document.getElementById(ref) ) {
+                    showSlide(ref)
+                } else {
+                    console.log('invalid slide url', ref, parseInt(ref, 10))
+                }
+            } else {
+                // return console.log('failed to nav to slide', ref)
+                showSlide(parseInt(ref, 10))
+            }
+        } else {
+            showSlide(1);
+        }
+    }
+    function setAnchorText (slideId) {
+
+        var ref = {
+            base : window.location.href,
+            params : "",
+            anchor : "",
+            location : ""
+        }
+
+        if ( ref.base.includes("#") ) {
+            var bits = ref.base.split('#')
+                ref.location  = bits[0]
+
+            if ( bits[1].includes('?') ) {
+                ref.params = ref.base.split('?')[1]
+            }
+        } else {
+
+            if ( ref.base.includes('?') ) {
+                var bits = ref.base.split('?')
+                ref.location  = bits[0]
+                ref.params = bits[1]
+            } else {
+                ref.location  = ref.base
+            }
+        }
+        var locString = ref.location + "#" + slideId
+
+            if ( ref.params > '' ) {
+                locString += "?" + ref.params
+            }
+
+        window.location.href = locString
+    }
+
+    function shareUrl ( ) {
+        if ( !window.isLoggedIn ) return
+
+        const el = document.createElement('textarea');
+        el.value = window.location.href;
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand('copy');
+        document.body.removeChild(el);
+        showCopyNotice()
+    }
+
+    function showCopyNotice ( ) {
+        var copyNotice = document.getElementsByClassName('copyNotice')[0]
+        var copyTimer = document.getElementsByClassName('copyTimeout')[0]
+        copyTimer.innerText = 5
+        copyNotice.className += " displayed"
+    
+        for ( let x = 1; x < 6; x++ ) {
+            setTimeout(function ( ) {
+                copyTimer.innerText = 5 - x
+                if ( x == 5) copyNotice.className = copyNotice.className.replace('displayed','')
+            }, x*1000 )
+        }
+        
+    }
+
+</script>
+
+<div class="copyNotice">
+    <span>Slide Link Copied... </span>
+    <span class="copyTimeout">5</span>
+</div>

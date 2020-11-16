@@ -1,0 +1,112 @@
+/* presenter-notes.css */
+.toc {
+    max-width: 50vw;
+    display: inline-block;
+    float: left;
+    z-index: 10;
+    position: fixed;
+    box-shadow: 1px 1px 5px 0px grey;
+    max-height: 100%;
+    overflow-y: scroll;
+    top: 0;
+    background-color: #00a599;
+}
+.toc a {
+    color: white;
+    font-size: .85em;
+}
+#toc>li {
+    color: white;
+}
+ol#toc>li.section a {
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+}
+li#toc_title-slide {
+    padding-top: 1.25em;
+}
+.notes {
+    display: inline-block;
+    float: left;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.hidden {
+    display: none;
+}
+.controlBar {
+    width: 100%;
+    text-align: center;
+}
+.controlBar ul {
+    padding: 0;
+    margin: 0;
+}
+.controlBar li {
+    display: inline-block;
+}
+p {
+    font-weight: 300;
+    font-size: .85em;
+}
+p.subtitle {
+    font-size: 1.075em;
+    font-weight: 200;
+}
+h4 {
+    font-family: kanit;
+    text-transform: uppercase;
+    margin-left: .3em;
+}
+h5 {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: .75em;
+    margin-left: .3em;
+}
+
+/* Handling TOC Progress */
+.tocHighlight {
+    background: #82d1cb;
+}
+span.toggleButton {
+    float: right;
+    margin-right: 1.1em;
+    margin-top: .3em;
+    color: white;
+}
+.notes-container h2 {
+    text-align: center;
+    width: 100%;
+}
+.controlBar li {
+    display: inline-block;
+    font-size: 1.25em;
+    padding: 0.5em;
+    margin-top: 0.1em;
+    padding-left: 0.65em;
+    padding-right: 0.65em;
+}
+.controlBar li:hover {
+    background: #8080809c;
+    border-radius: 0.15em;
+    color: white;
+}
+a {
+    cursor: pointer;
+}
+.controlBar {
+    cursor: pointer;
+}
+.notesBody ol li {
+    color: white;
+    font-weight: 550;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    padding-bottom: 0.5rem;
+}

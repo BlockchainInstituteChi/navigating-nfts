@@ -1,0 +1,14 @@
+<article class="title-break" id="{{ include.id }}">
+    <header>
+        <h2>{{ include.title }}</h2>
+        <img class="cornerLogo presenterOnly"  src="/assets/img/BlockchainInstitute_Logo_COLOR.png">
+    </header>
+    <div>
+    </div>
+    {% include toggleNotesButton.html
+        slideId = include.slideId
+    %}
+    <footer class="notes-footer" id="{{ include.slideId }}-notes">
+        {{ include.notes }}
+    </footer>
+</article>

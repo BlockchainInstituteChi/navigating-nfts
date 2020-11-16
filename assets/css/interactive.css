@@ -1,0 +1,557 @@
+
+.presenterOnly {
+    display: block;
+  }
+
+article#title-slide {
+    margin-top: 0em;
+}
+
+.notesToggleButton, footer {
+    display: none;
+}
+
+article {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    min-height: 45em;
+}
+
+body {
+    max-width: 100%;
+    width: 100% !important;
+}
+
+li {
+    font-size: 1.2vw !important
+}
+
+dl {
+    font-size: 1.2vw !important
+}
+
+p {
+    font-size: 1.2vw !important
+}
+h3 {
+    font-size: 1.2vw !important
+}
+
+h2 {
+    font-size: 2.6vw;
+    line-height: 1em;
+}
+span.goal {
+    font-size: 1.2vw;
+}
+h3.exampleSubhead {
+    margin-left: 1.2em !important;
+}
+header img {
+    position: absolute;
+    width: 11vw;
+    right: 1.5em;
+    top: 0.3em;
+}
+article.title-break>div {
+    min-height: inherit;
+}
+
+article.prompt-question>div {
+    min-height: inherit;
+}
+
+article.title-break header, article.prompt-question header {
+    width: 97%;
+    padding-top: 270px;
+    padding-left: 0em;
+}
+
+.title-break h2 {
+    font-size: 1.75em;
+}
+
+.prompt-question h2 {
+    font-size: 1.75em;
+}
+
+article#blockchains-not-free figure {
+    max-width: 50%;
+}
+
+article#modern-challanges figure {
+    max-width: 50%;
+}
+
+article#technology-tools-defenses figure {
+    max-width: 60%;
+}
+
+article#web3 figure {
+    max-width: 30%;
+}
+
+article {
+    /* page-break-after : always; */
+    display: none;
+    border: none;
+}
+
+body {
+    overflow: hidden;
+}
+
+/* Modals */
+.modal {
+    position: fixed;
+    background: #00a599;
+    max-height: 100%;
+    left: 0;
+    overflow-y: scroll;
+    z-index: 1000;
+    top: 0;
+    padding: 1em 0em 0em 1.5em;
+}
+.modal p, .modal ul, .modal h1, .modal h2 {
+    max-width: calc(100% - 1em);
+    margin: 0.5em;
+    color: white;
+}
+.modal.notes {
+    right: 0;
+    left: unset;
+    width: 25%;
+    height: 100%;
+    background-color: #b13173;
+    /* padding: 2em 0em 2em 2em; */
+    overflow: hidden;
+}
+.notesBody {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-right: 2em;
+}
+.notesBody p {
+    font-size: .9em !important;
+    font-weight: 300;
+    color: white;
+}
+
+ol#toc>li.section a {
+    font-size: 100%;
+    font-weight: bold;
+    color: white;
+}
+ol#toc>li.section {
+    color: white !important;
+    font-size: .95em !important;
+    line-height: 1em;
+}
+ol#toc {
+    padding-right: 2em;
+}
+#toc>li {
+    color: white;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: .8em !important;
+}
+#toc li a, a:visited {
+    color: white;
+}
+div#toc-container {
+    width: 25%;
+}
+p.subtitle {
+    font-family: Roboto;
+    font-weight: 300;
+    margin-top: 2.5em;
+}
+.notesBody p.subtitle {
+    font-family: Roboto;
+    font-weight: 200 !important;
+    font-size: 1.2em !important;
+    margin-bottom: 1em;
+    padding-left: 0em;
+    line-height: 1.25em;
+}
+.modal h4 {
+    color: white;
+    margin-left: .875em;
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+.modal h5 {
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: .75em;
+    margin-left: .85em;
+}
+
+/* Body */
+.slideBody {
+    max-width: 50vw;
+    margin: auto;
+    margin-top: 4em;
+    background-color: white;
+}
+
+
+/* Handling show-slide */
+.shown {
+    display: unset;
+}
+
+/* Handling TOC Progress */
+.tocHighlight {
+    background: #82d1cb;
+}
+
+/* Controls */
+.controlBar {
+    width: 100vw;
+    position: fixed;
+    z-index: 25;
+    left: 0;
+    height: fit-content;
+    position: fixed;
+    bottom: 2em;
+}
+.controlBar ul {
+    width: fit-content;
+    margin: auto;
+    padding: 0;
+    background-color: white;
+}
+.controlBar li {
+    display: inline-block;
+    padding: 0.5em;
+    color: #002942;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 1.15em !important;
+    padding: 0.5em;
+    margin-top: 0.1em;
+    padding-left: 0.65em;
+    padding-right: 0.65em;
+    padding-bottom: 0.2em;
+    text-align: center;
+    position: relative;
+}
+.controlBar span {
+    display: block;
+    text-align: center;
+    font-size: .75em;
+}
+.controlBar li:hover {
+    background: #8080809c;
+    border-radius: 0.15em;
+    color: white;
+}
+span.toggleButton {
+    font-size: 1.5em;
+    float: right;
+    position: absolute;
+    right: 0.5em;
+    color: white;
+    top: 0.2em;
+}
+.modal.notes span.toggleButton {
+    float: right;
+    position: absolute;
+    left: 0.5em;
+    color: white;
+    top: 0.2em;
+}
+
+/* Info Section */
+.info {
+    width: 100vw;
+    position: absolute;
+    background: white;
+    z-index: 50;
+    top: 0;
+    height: 100vh;
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow-y: scroll;
+}
+.info span.toggleButton {
+    font-size: 1.5em;
+    color: #003449;
+    border-radius: 50%;
+    padding-top: 0.25em;
+    background: #612b0338;
+    bottom: 1.5em;
+    left: 50%;
+    z-index: 9999 !important;
+    display: block;
+    margin-left: -1em;
+    position: fixed;
+    width: 2.25em;
+    top: unset;
+    height: 2.25em;
+    background-color: #584f4f59;
+    text-align: center;
+}
+#blockchain-institute a {
+    color: black;
+}
+
+/* Cursor Styling */
+a {
+    cursor: pointer;
+}
+.controlBar {
+    cursor: pointer;
+}
+.slideBody {
+    cursor: pointer;
+}
+
+
+/* title-break fix */
+article.title-break {
+    max-height: 100%;
+    min-height: 100%;
+}
+article.title-break>div, article.prompt-question>div {
+    background-size: contain;
+    background: none !important;
+    position: relative;
+    height: 100%;
+}
+.title-break div h2, .prompt-question div h2 {
+    display: block;
+    position: relative;
+    height: 100px;
+    margin: auto !important;
+    top: 11vw;
+}
+.title-break h2, .prompt-question h2 {
+    color: white;
+    text-align: center;
+    font-size: 3vw !important;
+    z-index: 1000 !important;
+    margin-top: 25% !important;
+    position: absolute;
+    width: -webkit-fill-available;
+    line-height: 1em;
+}
+.prompt-question h2 {
+    color: #b13173;
+}
+.title-break img, .prompt-question img {
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: unset !important;
+    z-index: -1;
+}
+article h2 {
+    max-width: 70%;
+}
+article#block-example {
+    background-color: white;
+    border-right: 0;
+}
+
+/* fullscreen */
+.fullScreen li, .fullScreen h1, .fullScreen h2, .fullScreen h3, .fullScreen h4, .fullScreen span, .fullScreen p {
+    /* color: white !important; */
+    font-size: 2.5em;
+}
+.fullScreen h2 {
+    font-size: 3.5em;
+    line-height: 1em;
+}
+.slideBody.fullScreen {
+    background: white;
+}
+.fullscreen header img {
+    top: -0em;
+}
+.slideBody.fullScreen {
+    background: white;
+    padding: 3em;
+}
+article.full-image>div>figure>img {
+    width: 100%;
+    margin-top: 0em;
+}
+.fullScreen li, .fullScreen p, fullScreen a {
+    font-size: 2em !important;
+}
+.fullScreen .title-break h2, .fullScreen .prompt-question h2 {
+    font-size: 4vw !important;
+    margin-left: 3.7em !important;
+    margin-right: 3.7em !important;
+    line-height: .8em;
+}
+.title-break div h2, .prompt-question div h2 {
+    display: block;
+    position: relative;
+    height: 100px;
+    margin: auto !important;
+    top: 4em;
+}
+.fullScreen figcaption {
+    font-size: 1.3em;
+}
+.fullScreen figcaption a {
+    font-size: 1em;
+}
+.fullScreen span.goal {
+    font-size: 2vw;
+}
+.fullScreen span.handsOnParagraph {
+    font-size: 2vw;
+}
+.fullScreen a:visited {
+    color: black;
+}
+.fullScreen .title-break div h2, .fullScreen .prompt-question div h2 {
+    top: 5.5em;
+}
+
+span.handsOnParagraph {
+    font-size: 1.2vw;
+}
+.fullScreen ul li ul li {
+    font-size: 1.8vw !important;
+}
+.fullScreen #transaction-status img {
+    height: 50%;
+}
+.fullScreen article.title-break>div, .fullScreen article.prompt-question>div {
+    overflow: hidden;
+}
+
+
+
+
+
+article.example, .example div, .example header {
+    color: black;
+}
+/* article:before {
+    background: url(/assets/img/BlockchainInstitute_Logo_COLOR.png), no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 100px;
+    right: 0;
+    z-index: 100;
+    content: "";
+    display: block;
+} */
+header {
+    position: relative;
+}
+#info p {
+    font-size: .9em !important;
+}
+#info li {
+    font-size: 1em !important;
+}
+.feedbackCallToAction a {
+    font-weight: 600;
+}
+.example header {
+    margin-top: -4em !important;
+}
+
+span.copyTimeout {
+    color: white;
+    margin-left: 2em;
+    float: right;
+}
+
+.copyNotice {
+    position: fixed;
+    top: 1em;
+    width: 14em;
+    background: #40be9482;
+    font-family: roboto;
+    margin: auto;
+    text-align: center;
+    padding: 0.25em 1em 0.25em 1em;
+    font-size: 0.85em;
+    left: 50%;
+    margin-left: -7em;
+    display: none;
+}
+
+.copyNotice.displayed {
+    display: block;
+}
+
+.notesBody ol li {
+    color: white;
+    font-weight: 550;
+    font-size: 1rem !important;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    padding-bottom: 0.5rem;
+}
+
+div#allOptions {
+    display: block;
+    position: absolute;
+    bottom: 4rem;
+    height: fit-content;
+    border: 1px solid black;
+    width: fit-content;
+    border-radius: 1rem;
+    left: -3.75rem;
+    min-width: 12rem;
+    background: white !important;
+}
+.allOptions ul {
+    background: none;
+}
+.allOptions li {
+    display: block;
+    border-bottom: 1px solid #8080803d;
+}
+.allOptions li i {
+    float: left;
+}
+
+
+/* LoginPrompt */
+section.userLoginPrompt {
+    position: absolute;
+    z-index: 1000;
+    left: 25vw;
+    width: 50vw;
+    top: 25vw;
+    background: white;
+    border: 1px solid grey;
+    padding: 1rem;
+    font-family: kanit;
+}
+.userLoginPrompt h3 {
+    font-size: 1.5rem !important;
+    color: red;
+    margin-top: 0rem !important;
+    margin-bottom: 0.5rem !important;
+}
+.loginForm span {
+    display: block;
+    padding-bottom: 1rem;
+}
+input.emailInput {
+    width: calc(100% - 4.5rem);
+}
+a.noThanks:hover {
+    color: red;
+}
+a.noThanks {
+    color: #524646;
+}
