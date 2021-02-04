@@ -1,5 +1,5 @@
 --- 
-title: "Properties-of DeFi"
+title: "Properties Of DeFi"
 slideId: "properties-of-defi"
 type : full-text
 notes : |
