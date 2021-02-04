@@ -1,6 +1,6 @@
 --- 
-title: "Motivations for Creating Ethereum"
-slideId: "motivations-for-creating-ethereum"
+title: "What is Ethereum?"
+slideId: "what-is-ethereum"
 type: full-image
 notes: |
   <span>Helpful teachers notes about the slide go here. These will not be visible to anyone but instructors!</span>
