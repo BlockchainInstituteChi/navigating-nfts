@@ -1,6 +1,6 @@
 --- 
-title: "Possible Solutions"
-slideId: "possible-solutions"
+title: "Banks and Market Domination"
+slideId: "banks-and-market-domination"
 type: full-image
 notes: |
   <span>Helpful teachers notes about the slide go here. These will not be visible to anyone but instructors!</span>

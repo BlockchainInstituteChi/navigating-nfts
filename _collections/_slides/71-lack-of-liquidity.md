@@ -1,6 +1,6 @@
 --- 
-title: "Possible Solutions"
-slideId: "possible-solutions"
+title: "Lack of Liquidity"
+slideId: "lack-of-liquidity"
 type: full-image
 notes: |
   <span>Helpful teachers notes about the slide go here. These will not be visible to anyone but instructors!</span>

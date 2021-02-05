@@ -1,7 +1,7 @@
 --- 
-title: "Possible Solutions"
-slideId: "possible-solutions"
-type: full-image
+title: "Ease of Use"
+slideId: "ease-of-use"
+type: "full-image"
 notes: |
   <span>Helpful teachers notes about the slide go here. These will not be visible to anyone but instructors!</span>
 img : String - name of an image file in /assets/img/
