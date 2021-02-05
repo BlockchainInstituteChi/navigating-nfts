@@ -1,12 +1,11 @@
 ---
-title: < insert a compelling title >
+title: "Welcome"
 slideId: "title-slide"
 type: full-image
-img : String - name of an image file in /assets/img/
-imgTitle : String - the title text for the image
+img : DEFI_title.jpg
+imgTitle : DeFi Title Image
 imgAlt : String - the Alt text for the image
 imgCaption : String - HTML Formatted string for the caption
 isSectionHead : true
 notes: |
-  <span>Helpful teachers notes about the slide go here. These will not be visible to anyone but instructors!</span>
 ---
