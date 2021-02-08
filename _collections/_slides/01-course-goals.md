@@ -6,11 +6,11 @@ notes: |
     <p>No notes for this slide.</p>
 bodyText: | 
     <ul>
-        <li>Learn how to store cryptocurrency securely</li>
-        <li>Examine the mechanics behind a cryptocurrency transaction</li>
-        <li>Know where to look when something goes wrong</li>
-        <li>Explain how cryptocurrency is different than cash</li>
-        <li>Understand how blockchain technology may impact YOU!</li>
+        <li>The road from Bitcoin to Ethereum to DeFi</li>
+        <li>How traditional financial applications are being decentralized</li>
+        <li>The values of the DeFi ecosystem: Openness, Modularity, Decentralization</li>
+        <li>The new financial applications building upon blockchain technology</li>
+        <li>How to navigate the DeFi ecosystem using various tools</li>
     </ul>    
 ---
 
