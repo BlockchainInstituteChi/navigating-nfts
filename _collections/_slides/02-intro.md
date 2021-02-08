@@ -3,6 +3,7 @@ title: "Intro"
 slideId: "intro"
 type: "title-break"
 notes: |
-  <span>Helpful teachers notes about the slide go here. These will not be visible to anyone but instructors!</span>
+  <p><b>Ask a question: Why is DeFi a topic of interest? As Bitcoin established centralized money, new innovation trends are exploring if a decentralized financial system can function.</b></p> 
+  <p>Why are we here?  Why is DeFi worth studying? What is the potential impact that DeFi could have?<p>
 isSectionHead: true
 ---
