@@ -12,5 +12,5 @@ notes: |
   <p>This is the idea behind DeFi. Users trust a protocol and can then offer loans and other financial instruments. Trust is secured through established rules that are transparent to everybody. The technology to circumvent banks exists and is gaining rapidly, in terms of applications, money, and users.</p>
 img : YouCanBeTheBank.jpg
 imgTitle : You Can Be The Bank
-imgAlt : Name tag with the name, the bank, written on it.
+imgAlt : Name tag with the name the bank written on it
 ---
