@@ -1,8 +1,8 @@
 --- 
 title: "The Limitations of Bitcoin"
 slideId: "the-limitations-of-bitcoin"
-type: < title-break, full-image, full-text, left-right, top-bottom, prompt-question, or video >
+type: "title-break"
 notes: |
-  <span>Helpful teachers notes about the slide go here. These will not be visible to anyone but instructors!</span>
+  <p><b>Introduce dApp development that expanded cryptocurrencies, smart contracts, and DAOs and how it relates to Bitcoin’s limitations.</b></p>
 isSectionHead: true
 ---
