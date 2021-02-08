@@ -4,8 +4,8 @@ slideId: "title-slide"
 type: full-image
 img : DEFI_title.jpg
 imgTitle : DeFi Title Image
-imgAlt : String - the Alt text for the image
-imgCaption : String - HTML Formatted string for the caption
+imgAlt : Demystifying DeFi title image
+imgCaption : Welcome to Demystifying DeFi, Stablecoins, and NFTs
 isSectionHead : true
 notes: |
 ---
