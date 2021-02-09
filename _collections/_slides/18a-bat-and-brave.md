@@ -3,9 +3,9 @@ title: "BAT and Brave"
 slideId: "bat-and-brave"
 type: full-image
 notes: |
-  <span>Helpful teachers notes about the slide go here. These will not be visible to anyone but instructors!</span>
-img : String - name of an image file in /assets/img/
-imgTitle : String - the title text for the image
-imgAlt : String - the Alt text for the image
-imgCaption : String - HTML Formatted string for the caption
+  <p>One of the more innovative crypto projects took on the ad industry that so often exploits our data. Brave Browser was introduced as a
+Additionally, a native token named Basic Attention Token (BAT)</p>
+img : Brave.jpg
+imgTitle : Brave
+imgAlt : Brave's lion logo
 ---
