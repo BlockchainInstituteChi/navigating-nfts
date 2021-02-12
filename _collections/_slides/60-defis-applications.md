@@ -3,7 +3,7 @@ title: "DeFi’s Applications"
 slideId: "defis-applications"
 type: “title-break”
 notes: |
-  <span>Helpful teachers notes about the slide go here. These will not be visible to anyone but instructors!</span>
+  <p class="subtitle">Now that we learned about what DeFi is all about, let’s learn what people are doing with these tools.</p>
 isSectionHead: true
 ---
 
