@@ -7,8 +7,8 @@ notes:
   <p>Decentralized finance cuts out the bank's role in our financial system by connecting users via a decentralized network. It may seem counterintuitive, but DeFi services aren't conducted on a peer to peer basis. Let's use the example of a DEX to illustrate why it's impractical to facilitate loans on a peer-to-peer  basis. Let's say you want to trade a certain amount of ether for some DAI. If this swap only occured on a peer-to-peer basis, you'd have to find someone or multiple people that are looking to trade the corresponding amount of DAI at an agreed upon exchange rate. You would have to pair up with accounts that fit these exact parameters which could involve long waiting times.</p>
   <p>The way DEX's handle this problem is with an innovation known as liquidity pools. Instead of users being directly matched in order to find the liquidity normally provided by banks, these pools act as available capital for others to utilize. Previously, the availability of these funds is what gave centralized banking such a stranglehold on the system. No one else had the necessary capital to conduct financial services on a large scale.</p>
   <p>Liquidity Pools provide the necessary available funds in order to make these trades and other DeFi activities possible. They are made up of smart contracts that can "lock up" funds made available for swapping or lending while keeping track of whose funds are in the smart contract. A corresponding amount of interest is rewarded for users making their crypto available. These pools provide the DeFi ecosystem with the necessary capital in order to bring these financial activities to cryptocurrency. However, it isn’t the only method of locking your funds to gain more as there are other activities that fall under the umbrella of yield farming.</p>
-img : String - name of an image file in /assets/img/
-imgTitle : String - the title text for the image
-imgAlt : String - the Alt text for the image
+img : LiquidityPools.jpg
+imgTitle : Liquidity Pools
+imgAlt : Money abstractly forming aggregated pools
 imgCaption : String - HTML Formatted string for the caption
 ---
