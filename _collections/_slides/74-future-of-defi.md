@@ -3,6 +3,6 @@ title: "Future of DeFi"
 slideId: "future-of-defi"
 type: “title-break”
 notes: |
-  <span>Helpful teachers notes about the slide go here. These will not be visible to anyone but instructors!</span>
+  <p class="subtitle">Despite all of these issues, DeFi has shown promise. Let’s examine a future where DeFi overcomes these hurdles. What would that look like?</p>
 isSectionHead: true
 ---
