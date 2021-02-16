@@ -13,7 +13,7 @@ notes: notes:
   <p>Contrary to the Coinbase exchange, Coinbase Wallet users manage and control their private keys, assuring them complete security when storing their crypto on the dApp. This is especially useful, considering these tools previously had to be used separately. There have been other dApps that have tried to bridge the gap between wallets and the decentralized web, using innovative tools to integrate them.</p>
   <p>Brave Browser is another way to connect to the decentralized web. When it comes to dApps, Brave is one of the most intuitive out there, mainly because it is designed to look at function like the Google Chrome Browser. The lack of a learning curve makes it a really easy way to interact with dApps. Additionally, it has a variety of cool features that make it a very attractive dApp to use.</p>
   <p>Brave is all about preservation of privacy, allowing you to share the data you want to share and interact with an advertisement only when you want to do so. If you don’t want those pesky ads appearing, you can turn on Brave’s built-in adblocker.  Like Coinbase Wallet, Brave has a cryptocurrency wallet that can be used to interact with dApps. One of the more exciting developments that Brave is currently implementing is compatibility with IPFS, a decentralized file storage protocol.</p>
-img : String - name of an image file in /assets/img/
-imgTitle : String - the title text for the image
-imgAlt : String - the Alt text for the image
+img : Wallets.jpg
+imgTitle : Wallets
+imgAlt : The Coinbase wallet and brave logos next to each other
 imgCaption : String - HTML Formatted string for the caption
