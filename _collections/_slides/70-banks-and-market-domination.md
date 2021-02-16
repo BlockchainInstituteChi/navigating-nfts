@@ -14,8 +14,8 @@ notes:
   <p>It can be argued that the idea of centralized finance is so ingrained in our society because we went for so long without a viable alternative. Until 2009, when the technological structure of a decentralized network was created, we simply didn't have any other option than to use banks, even though they might not always have our best interest in mind (see 2008).</p>
   <p>Historically, a bank was always needed to determine who has what funds. There was no way to track transactions in a transparent manner. Now that decentralized technology can do just that, a robust financial system is being created that is an alternative to banks. For the first time, there is another option for the average user, one that does not have to rely on these large centralized banks.</p>
   <p>Now that this decentralized alternative exists, it is a matter of creating awareness that there is an alternative path. In order for this to occur, the DeFi ecosystem has to develop and offer more freedom and functionality to users than they would get from a bank. For the first time in history, these financial services can be carried out without a bank.</p>  
-img : String - name of an image file in /assets/img/
-imgTitle : String - the title text for the image
-imgAlt : String - the Alt text for the image
+img : CurrentMarketDomination.jpg
+imgTitle : Banks and Market Domination
+imgAlt : A physical and mental divide between people and Bitcoin
 imgCaption : String - HTML Formatted string for the caption
 ---
