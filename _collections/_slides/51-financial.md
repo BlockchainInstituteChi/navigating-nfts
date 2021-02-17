@@ -3,7 +3,9 @@ title: "Financial"
 slideId: "financial"
 type: full-image
 notes: |
-  <span>Helpful teachers notes about the slide go here. These will not be visible to anyone but instructors!</span>
+  <p class="subtitle">Describe the three overarching values of the DeFi ecosystem: Openness, Modularity, Decentralization.</p>
+  <p>There were a lot of innovations based that went into the ecosystem that DeFi has become. This innovation has revolved around a few specific categories: Openness, Modularity, and Decentralization
+
 img : String - name of an image file in /assets/img/
 imgTitle : String - the title text for the image
 imgAlt : String - the Alt text for the image
