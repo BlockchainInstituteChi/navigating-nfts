@@ -6,7 +6,7 @@ notes: |
   <p class="subtitle">Some cryptocurrencies are backed by an equal amount of currency.</p>
 
   <p>The simplest of stablecoins. The token is pegged to a fiat currency. For example 1 GUSD (Gemini Dollar) = 1 USD. The tokens value is represented as a digital dollar. Most stablecoins follow this pattern. 
-Fiat backs tokens on a 1:1 ratio. For every unit of currency held there is one token issued. When the token is exchanged for fiat, they are taken out of circulation. When someone wants to buy the stablecoin, their fiat is sent to the reserve and new coins are created and issued. Simply put, these stablecoins are backed by relatively stable fiat currencies. The vast majority of stablecoins either represent the USD or Euro as they are the most popular global currencies. </p>
+  Fiat backs tokens on a 1:1 ratio. For every unit of currency held there is one token issued. When the token is exchanged for fiat, they are taken out of circulation. When someone wants to buy the stablecoin, their fiat is sent to the reserve and new coins are created and issued. Simply put, these stablecoins are backed by relatively stable fiat currencies. The vast majority of stablecoins either represent the USD or Euro as they are the most popular global currencies. </p>
 
   <h4>Tether</h4>
 
