@@ -11,7 +11,7 @@ notes: |
   <h4>Tether</h4>
 
   <p>Tether is a cryptocurrency that is designed to mirror the value of one USD.
-1USDT=1USD. Basically, Tether is used to turn fiat into a stable, digital token. The original idea was that the company behind Tether would maintain a cash reserve equal to the number of tokens. If Tether is redeemed, those tokens are burned. Tokens are created by contributing to the Tether reserve.</p>
+  1USDT=1USD. Basically, Tether is used to turn fiat into a stable, digital token. The original idea was that the company behind Tether would maintain a cash reserve equal to the number of tokens. If Tether is redeemed, those tokens are burned. Tokens are created by contributing to the Tether reserve.</p>
 
   <p>Over the past two years, there has been some controversy surrounding Tether, specifically their cash reserves. The root criticism is based on the fact that Tether is highly centralized. This also means that their reserves didn’t have the transparency needed to instill trust in its users. This led some to question whether Tether had the funds to back their supply. Many called for Tether to be audited. There was also concern about what would happen to the entire cryptocurrency market if it was found that Tether did not have the funds that they claimed they did.</p>
 
