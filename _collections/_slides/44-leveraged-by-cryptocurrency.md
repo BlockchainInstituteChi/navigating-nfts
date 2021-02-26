@@ -3,7 +3,7 @@ title: "Leveraged by Cryptocurrency"
 slideId: "leveraged-by-cryptocurrency"
 type: "full-image"
 notes: |
-  <p class="subtitle">Goal: Explain how collateralization of crypto can be used to create stablecoins</p>
+  <p class="subtitle">Explain how collateralization of crypto can be used to create stablecoins</p>
 
   <p>Some stablecoins are actually backed by cryptocurrency itself. While this seems like an impossible prospect considering the volatility of cryptocurrency, projects have created ecosystems that have been able to maintain a relatively stable value. To ensure some stability, this type of stablecoin is usually backed by the more stable cryptocurrencies, mainly bitcoin and ether. To further ensure price stability, cryptocurrency backed stablecoins can be backed by more than one cryptocurrency; if you spread your backing assets among several cryptocurrencies, there is less chance of experiencing overall volatility compared to relying on one cryptocurrency to hold its value. However, cryptocurrency backed stablecoins are more likely to see fluctuation in price when compared to cash backed stablecoins. </p>
 
