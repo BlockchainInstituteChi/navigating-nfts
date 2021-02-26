@@ -11,5 +11,4 @@ notes: |
 img : Openness.jpg
 imgTitle : Openness
 imgAlt : The internet encompassing the globe
-imgCaption : String - HTML Formatted string for the caption
 ---
