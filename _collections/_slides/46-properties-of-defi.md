@@ -1,7 +1,7 @@
 --- 
-title: "Properties of DeFi?"
+title: "Properties of DeFi"
 slideId: "properties-of-defi-title"
-type: “title-break”
+type: title-break
 notes: |
   <p class="subtitle">Describe the three overarching values of the DeFi ecosystem: Openness, Modularity, Decentralization.</p>
 
