@@ -2,7 +2,7 @@
 title: "Wallets"
 slideId: "wallets"
 type: "full-image"
-notes: notes: 
+notes: 
   <p class="subtitle">Reiterate the purpose of a cryptocurrency wallet: 
   <ul><li>Why decentralize wallets?</li> 
   <li>Custodial vs non-custodial wallets</li> 
