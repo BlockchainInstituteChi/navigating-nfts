@@ -10,5 +10,4 @@ notes:
 img : DEXs.jpg
 imgTitle : DEXs
 imgAlt : A network of people forming nodes
-imgCaption : String - HTML Formatted string for the caption
 ---
