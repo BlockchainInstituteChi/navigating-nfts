@@ -1,5 +1,5 @@
 --- 
-title: "Altcoins Attempt to Address Bitcoin’s Deficiencies"
+title: "Altcoins Address Bitcoin’s Deficiencies"
 slideId: "altcoins-address-bitcoins-deficiencies"
 type: full-image
 notes: |
