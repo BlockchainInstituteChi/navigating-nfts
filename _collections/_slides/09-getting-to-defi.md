@@ -1,5 +1,5 @@
 --- 
-title: "Getting To DeFi”"
+title: "Getting To DeFi"
 slideId: "getting-to-defi"
 type: full-image
 notes: |
