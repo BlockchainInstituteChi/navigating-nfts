@@ -16,5 +16,5 @@ notes : |
     <li>Choose advanced settings</li>
     <li>Enable customizable nonce, allowing us to reorder our wallet’s transactions</li></ul>
     <p>Now when you send a transaction, a field will appear, allowing you to enter a specific nonce. To unstick a transaction, send a very small amount of Eth with the same nonce that is found on the pending transactions using a block explorer. Your transaction with the custom nonce will be processed along with your original transaction, effectively adding gas to the stuck transaction.</p>
-bodyText : https://youtu.be/uSp9AcozWro
+bodyText : <iframe> width="1366" height="528" src="https://www.youtube.com/embed/uSp9AcozWro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ---
