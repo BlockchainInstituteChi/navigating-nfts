@@ -1,6 +1,6 @@
 --- 
 title: "Decentralized"
-slideId: "decentralized"
+slideId: "decentralized-2"
 type: "full-image"
 notes: |
   <p class="subtitle">DeFi takes financial instruments and services traditionally offered by banks and investment institutions and puts users in control by utilizing decentralized protocols with no central administrator. Trusting third parties is removed from the equation. Only the open protocol, which is auditable, has to be trusted.</p>
