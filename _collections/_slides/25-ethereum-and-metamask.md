@@ -15,6 +15,5 @@ notes :
     <li>Select the cryptocurrency address you would like to connect to MetaMask</li></ol>
     </p>
 bodyText :
-    <iframe width="1366" height="528" src="https://www.youtube.com/embed/oSR86eAxuHw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <cite>Credit: <a href='https://www.youtube.com/watch?time_continue=600&v=dnC5mFaIW3Q&feature=emb_logo'>Youtube.com</a></cite>
 ---
