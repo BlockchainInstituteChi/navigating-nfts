@@ -3,7 +3,7 @@ title: "Why Stablecoins?"
 slideId: "why-stablecoins"
 type: "full-image"
 notes: |
-  <p class="subtitle">Goals: Explain the purpose of stablecoins and some parties that may be answered in utilizing this technology. Start to explore the role that stablecoins play in the DeFi ecosystem.</p>
+  <p class="subtitle">Explain the purpose of stablecoins and some parties that may be answered in utilizing this technology. Start to explore the role that stablecoins play in the DeFi ecosystem.</p>
 
   <p>The frequent price changes we see in the digital currency market has slowed down the mass adoption of cryptocurrency. A merchant is not going to be keen to accept a volatile asset, as a steep drop in price could happen overnight. A cryptocurrency used to buy a good may be worth a dollar at the time of purchase. That value may decline 15% overnight, and the merchant is stuck with 85 cents on the dollar. Volatility has the potential to disrupt the steady business operations conducted by small and medium-sized businesses. Put simply, volatile assets are not ideal for everyday spending for either the purchaser or seller.</p>
 
