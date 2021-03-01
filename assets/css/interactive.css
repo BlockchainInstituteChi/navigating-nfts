@@ -399,7 +399,7 @@ article.full-image>div>figure>img {
     position: relative;
     height: 100px;
     margin: auto !important;
-    top: 4em;
+    top: 3.75em;
 }
 .fullScreen figcaption {
     font-size: 1.3em;
