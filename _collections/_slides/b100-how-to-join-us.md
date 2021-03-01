@@ -1,8 +1,7 @@
 --- 
 title: "How to Join Us"
 slideId: "how-to-join-us"
-type: left-right
-notes: | 
+type: full-text 
 bodyText: | 
     <p><a href="https://theblockchaininstitute.us18.list-manage.com/subscribe?u=ed27e0082d5f7e8d5cd3e3622&amp;id=d50da5888a" target="_blank">Sign up for our Newsletter!</a></p>
     <p>Follow us on social media!</p>
