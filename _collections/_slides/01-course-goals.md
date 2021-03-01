@@ -2,8 +2,6 @@
 title: "Course Goals"
 slideId: "course-goals"
 type: full-text
-notes: | 
-    <p>No notes for this slide.</p>
 bodyText: | 
     <ul>
         <li>The road from Bitcoin to Ethereum to DeFi</li>
