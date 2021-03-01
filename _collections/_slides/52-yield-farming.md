@@ -9,5 +9,4 @@ notes:
 img : YieldFarming.jpg
 imgTitle : Yield Farming
 imgAlt : Cryptocurrency gradually growing like plants would
-imgCaption : String - HTML Formatted string for the caption
 ---
