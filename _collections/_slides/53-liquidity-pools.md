@@ -10,5 +10,4 @@ notes:
 img : LiquidityPools.jpg
 imgTitle : Liquidity Pools
 imgAlt : Money abstractly forming aggregated pools
-imgCaption : String - HTML Formatted string for the caption
 ---
