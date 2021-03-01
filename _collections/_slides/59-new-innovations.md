@@ -9,5 +9,4 @@ notes:
 img : NewInnovations.jpg
 imgTitle : New Innovations
 imgAlt : A lightbulb representing a new idea
-imgCaption : String - HTML Formatted string for the caption
 ---
