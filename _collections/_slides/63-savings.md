@@ -9,6 +9,5 @@ notes:
 img : Savings.jpg
 imgTitle : Savings
 imgAlt : Stacks of money
-imgCaption : String - HTML Formatted string for the caption
 ---
 
