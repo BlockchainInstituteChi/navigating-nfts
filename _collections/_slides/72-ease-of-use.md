@@ -9,5 +9,4 @@ notes:
 img : EaseOfUse.jpg
 imgTitle : Ease of Use
 imgAlt : Mechanical gears on a computer screen
-imgCaption : String - HTML Formatted string for the caption
 ---
