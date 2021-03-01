@@ -8,5 +8,4 @@ notes:
 img : RunningAtEthereumsPace.jpg
 imgTitle : Running at Ethereum's Pace
 imgAlt : The Ethereum logo with legs running
-imgCaption : String - HTML Formatted string for the caption
 ---
