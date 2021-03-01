@@ -10,5 +10,4 @@ notes:
 img : MakingUseofCryptoSecurity.jpg
 imgTitle : Using Crypto Security
 imgAlt : Money securely locked in a cage
-imgCaption : String - HTML Formatted string for the caption
 ---
