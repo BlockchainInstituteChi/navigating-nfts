@@ -9,5 +9,4 @@ notes:
 img : LackOfLiquidity.jpg
 imgTitle : Lack of Liquidity
 imgAlt : A red strike through over an ocean's wave
-imgCaption : String - HTML Formatted string for the caption
 ---
