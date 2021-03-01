@@ -158,7 +158,7 @@ ol#toc {
     font-weight: 300;
     font-size: .8em !important;
 }
-#toc li a, a:visited {
+#toc li a, #toc li a:visited {
     color: white;
 }
 div#toc-container {
