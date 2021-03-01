@@ -10,6 +10,5 @@ notes:
 img : scaling.jpg
 imgTitle : Scaling
 imgAlt : Chain links forming a spiral
-imgCaption : String - HTML Formatted string for the caption
 ---
 
