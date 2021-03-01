@@ -8,5 +8,4 @@ notes:
 img : Technology.jpg
 imgTitle : Technology
 imgAlt : String - Abstract circuit board
-imgCaption : String - HTML Formatted string for the caption
 ---
