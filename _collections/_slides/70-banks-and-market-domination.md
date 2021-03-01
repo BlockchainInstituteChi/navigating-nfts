@@ -17,5 +17,4 @@ notes:
 img : CurrentMarketDomination.jpg
 imgTitle : Banks and Market Domination
 imgAlt : A physical and mental divide between people and Bitcoin
-imgCaption : String - HTML Formatted string for the caption
 ---
