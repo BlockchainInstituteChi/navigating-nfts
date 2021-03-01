@@ -9,5 +9,4 @@ notes:
 img : AssetManagement.jpg
 imgTitle : Asset Management
 imgAlt : Various tokens representing real world assets
-imgCaption : String - HTML Formatted string for the caption
 ---
