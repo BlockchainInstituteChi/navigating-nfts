@@ -1,6 +1,6 @@
 --- 
-title: "Course Goals"
-slideId: "course-goals"
+title: "Course Summary"
+slideId: "course-summary"
 type: full-text
 notes: | 
     <p>No notes for this slide.</p>
