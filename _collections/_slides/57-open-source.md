@@ -10,6 +10,5 @@ notes:
 img : OpenSource.jpg
 imgTitle : Open Source
 imgAlt : Individuals sharing ideas
-imgCaption : String - HTML Formatted string for the caption
 ---
 
