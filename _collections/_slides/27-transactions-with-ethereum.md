@@ -3,7 +3,7 @@ title: "Transactions with Ethereum"
 slideId: "transactions-with-ethereum"
 type : custom     
 notes : 
-  <p>Here are the key steps to conducting a transaction on MetaMask. First, make sure you are on the Ethereum mainnet. This option can be found next to your account icon. The other networks act as sandboxes where people can test their dApps without transferring real value.</p>
+  <p class="videoNotes">Here are the key steps to conducting a transaction on MetaMask. First, make sure you are on the Ethereum mainnet. This option can be found next to your account icon. The other networks act as sandboxes where people can test their dApps without transferring real value.</p>
   <ul><li>From the home screen select the send option</li>
   <li>Enter the receiving address</li>
   <li>Fill out the name of the cryptocurrency you want to transfer, the amount you want to send, and your gas price</li></ul>
