@@ -47,6 +47,9 @@ span.goal {
 h3.exampleSubhead {
     margin-left: 1.2em !important;
 }
+a, a:visited {
+    color: black !important;
+}
 header img {
     position: absolute;
     width: 11vw;
