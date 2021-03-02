@@ -1,4 +1,4 @@
-# Blockchain Institute Crypto Curious Course Slide & Notes Generator
+# Blockchain Institute Course Slide & Notes Generator
 
 This repo contains the core code for generating the Crypto Curious Course slides in a variety of formats. 
 
