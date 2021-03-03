@@ -1,7 +1,7 @@
 --- 
 title: "Adding a Pair"
 slideId: "adding-a-pair"
-type : custom     
+type : full-image     
 notes : 
     <p class="videoNotes">By providing your currency pair to a liquidity pool can be done in order to receive a return on your staked cryptocurrency. Uniswap works with both ether and ERC-20 tokens, as long as the necessary liquidity is present in the pool.</p>
     <ul><li>Go to Uniswap and connect your Metamask wallet to the website. This allows your wallet to directly interact with the DEX</li>
@@ -12,5 +12,8 @@ notes :
     <p>Your pair is taken and you are given “pool tokens” that can be used to claim your rewards. To remove your provided liquidity to claim your rewards, select the pool option from Uniswap’s home page and select the “your liquidity” option.</p>
         <ul><li>Select remove liquidity</li>
         <li>Confirm the transaction using your metamask wallet. You’ll get your original tokens back plus the interest gained from providing your pair to the liquidity pool</li></ul>
-bodyText : https://youtu.be/CqyzpbEWiBU
+img: Adding_a_Pair.jpg
+imgTitle: Adding a Pair
+imgAlt: Adding a currency pair to a liquidity pool in Uniswap
+imgCaption: <cite><a href='https://youtu.be/CqyzpbEWiBU'>Play Video</a></cite>
 ---
