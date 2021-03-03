@@ -1,7 +1,7 @@
 --- 
 title: "Troubleshooting Stuck Transactions"
 slideId: "troubleshooting-stuck-transactions"
-type : custom     
+type : full-image     
 notes : |
     <p class="videoNotes">A nonce is an added variable that is used to prevent double spending by keeping your transactions ordered. Each transaction per wallet has a unique nonce used to keep this order. If someone was to send their entire wallet balance containing one ether with a low gas fee, and then tries to send that same amount with a higher gas fee, the nonce is the variable assigned to transactions that makes sure they are executed in order, avoiding a double-spend scenario.</p>
     <p>For each transaction conducted with that wallet, the nonce increases by exactly one. It does not skip a number. The transaction with a higher nonce cannot be processed before a transaction with a lower nonce. The practical effect is that these transactions must occur in order. If one gets stuck, the others do too. This must be done in order to avoid double spending. In order to speed up or cancel a transaction, we need to learn how to clear or modify a nonce. But first, we need to know where to find this information.</p>
@@ -16,5 +16,8 @@ notes : |
     <li>Choose advanced settings</li>
     <li>Enable customizable nonce, allowing us to reorder our wallet’s transactions</li></ul>
     <p>Now when you send a transaction, a field will appear, allowing you to enter a specific nonce. To unstick a transaction, send a very small amount of Eth with the same nonce that is found on the pending transactions using a block explorer. Your transaction with the custom nonce will be processed along with your original transaction, effectively adding gas to the stuck transaction.</p>
-bodyText : <iframe> width="1366" height="528" src="https://www.youtube.com/embed/uSp9AcozWro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+img: Troubleshooting.jpg
+imgTitle:Troubleshooting
+imgAlt: Troubleshooting a stuck transaction
+imgCaption: <cite><a href='https://youtu.be/uSp9AcozWro'>Play Video</a></cite>
 ---
