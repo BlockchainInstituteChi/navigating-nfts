@@ -10,7 +10,7 @@ notes: |
 
 <p>And that brings us to an important question. What do NFTs represent?</p>
 
-img : Modular.jpg
-imgTitle : Modular
-imgAlt : Building blocks
+img : HowAreNFTsDIfferent.jpg
+imgTitle : How Are NFTs Different
+imgAlt : A phone being split in two
 ---
