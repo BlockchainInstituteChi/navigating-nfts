@@ -2,10 +2,10 @@
 title: "Welcome"
 slideId: "title-slide"
 type: full-image
-img : DEFI_title.jpg
-imgTitle : DeFi Title Image
-imgAlt : Demystifying DeFi title image
-imgCaption : Welcome to Demystifying DeFi, Stablecoins, and NFTs
+img : NavigatingNFTs_EVENT.jpg
+imgTitle : NFT Title Image
+imgAlt : Navigating NFTs title image
+imgCaption : Welcome to Navigating NFTs
 isSectionHead : true
-notes: |
+notes: 
 ---
