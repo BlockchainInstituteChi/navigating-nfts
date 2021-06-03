@@ -1,0 +1,12 @@
+--- 
+title: "Physical vs. Digital Assets"
+slideId: "physical-vs-digital-assets"
+type : full-image     
+notes :
+  <p>The biggest and most obvious difference is the type of asset that is represented via the token. There is a huge difference between an NFT that tracks the ownership of a real-world asset, like a deed to a house or a digital collectible like a cryptokitty.</p> 
+<p>Physical assets require multiple parties to recognize what the NFT represents, since a corresponding physical asset must be transferred along with the NFT. With other collectibles this can all be done digitally. For physical assets to be represented by NFTs, there has to be some type of agreement or understanding of what the NFT signifies. In this case, it would be the ownership of a house. Upon purchase, the deed changes hands by exchange of the NFT. Holding the NFT could be used as a method of proving ownership, and could intimately be given significance through law or contractual agreements.</p>
+Some of the earliest NFT based projects focused on digitizing paper deeds and records. In America, often the sole copy of an official document is housed in a courthouse basement. If a flood or fire occurs, the sole record of a birth, marriage, death, or ownership transfer may be lost forever. This problem is so pervasive, there is actually a complete insurance industry that has arisen to protect these documents.</p>
+img: PhysicalVSDigitalAssets.jpg
+imgTitle: Physical vs Digital Assets
+imgAlt: A digitized deed
+---
