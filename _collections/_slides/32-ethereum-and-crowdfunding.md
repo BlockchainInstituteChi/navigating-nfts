@@ -1,13 +1,14 @@
 --- 
-title: "Ethereum and Crowdfunding"
-slideId: "ethereum-and-crowdfunding"
+title: "Digital Album Packages"
+slideId: "digital-album-packages"
 type: "full-image"
 notes: |
-  <p class="subtitle">Ethereum ended up solving the Lighthouse crowdfunding problem by confirming blocks at a much faster rate, making it conducive to accepting the volume of funds contributed.</p>
-  <p>This occurred around the time that Ethereum would be launched. The next few years saw massive growth for the platform, and one of the areas that it had excelled in happened to be in crowdfunding. This crowdfunding model eventually would turn into a way for new projects to initially distribute their tokens through a crowdsale. This process was known as an "Initial Coin Offering", a play on the concept of an IPO. With so many tokens being created, there were often several ICOs on a single day. Ethereum's block structure and quick confirmation time made Mike Hearn's original goals a reality.</p>
-  
-  <p>2017 saw over $1.5B raised via Ethereum-based ICOs, causing massive growth in the platform's popularity. This alternative fundraising method allowed projects to skip the traditional venture capital route, instead valuing a decentralized funding model where they would sell their new token. These events coincided with a time that saw a lot of dApp growth on the Ethereum network.</p>
-img : IncreaseBlockSizeToSuitDapps.jpg
-imgTitle : Ethereum and Crowdfunding
-imgAlt : Floating blocks increasing in size representing ethereum and crowdfunding
+ <p>We talked about NFTs that have utility and how they allow you a privilege that not just anyone can obtain. A good example of this would be what Kings of Leon are attempting to do with their latest album, which is being sold as an NFT.</p>
+
+<p>YellowHeart is teaming up with the band to create a few NFTs that will serve different functions. The first unlocks a special album version with bonus content. Ownership of the NFT is the only way to access this content, giving it utility that will help maintain or increase the NFT's value. This is also the hope for the second NFT that's being released, containing a special media package similar to "behind the scenes" media. This is a rather unique way to monetize, but it only benefits the artist at the official sale. Usually, the more the piece of media changes ownership, the more people get access to this exclusive content while the artist doesn't gain additional revenue. This NFT is looking to address this specific problem through a unique smart contract that will give a set portion of each sale back to the artist, similar to a royalty paid on each sale. Artists are routinely exploited, with them having little say in the fate and sale of their work. By using this smart contract, they'll at least be able to claim continued monetization every time their work is sold.</p>
+
+<p>The last NFT is an extremely high-level VIP package that allows the holder to claim tickets for almost any Kings of Leon performance, ever. This is quite the perk that will go for quite the price, but if NFTs can be used for a package like this, can they be used for other, more general, event ticketing.</p>
+img : Albums.jpg
+imgTitle : Digital Albums
+imgAlt : A digital Kings of Leon album
 ---
